@@ -38,8 +38,8 @@ class Student
   end
 
   def self.create (name:, grade:) #keyword arg-- not sure why we use them here
-    p name:
-    p grade:
+    # p name:
+    # p grade:
     s=Student.new(name, grade)
     s.save
     s
